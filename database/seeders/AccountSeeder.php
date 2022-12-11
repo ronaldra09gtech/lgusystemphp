@@ -16,48 +16,30 @@ class AccountSeeder extends Seeder
     public function run()
     {
         DB::table('accounts')->insert([
-            'first_name'=>'giann',
-            'last_name'=>'giann',
-            'username'=>'giann',
-            'email'=>'giann@gmail.com',
-            'password'=>Hash::make('giann'),
+            'first_name'=>'Ronald',
+            'last_name'=>'Avila',
+            'username'=>'ronald',
+            'email'=>'ronaldra09gtech@gmail.com',
+            'password'=>Hash::make('ra45645655'),
             'type'=> "Admin",
         ]);
 
         DB::table('accounts')->insert([
-            'first_name'=>'rojhon',
-            'last_name'=>'rojhon',
-            'username'=>'rojhon',
-            'email'=>'rojhon@gmail.com',
-            'password'=>Hash::make('rojhon'),
+            'first_name'=>'Ivan',
+            'last_name'=>'Siazon',
+            'username'=>'princeivan',
+            'email'=>'ivan@gamil.com',
+            'password'=>Hash::make('123456789'),
             'type'=> "Admin",
         ]);
 
         DB::table('accounts')->insert([
-            'first_name'=>'von',
-            'last_name'=>'von',
-            'username'=>'von',
-            'email'=>'von@gmail.com',
-            'password'=>Hash::make('von'),
+            'first_name'=>'Lynel',
+            'last_name'=>'Tabien',
+            'username'=>'lynel123',
+            'email'=>'lynel@gmail.com',
+            'password'=>Hash::make('123456789'),
             'type'=> "Admin",
-        ]);
-
-        DB::table('accounts')->insert([
-            'first_name'=>'salen',
-            'last_name'=>'salen',
-            'username'=>'salen',
-            'email'=>'salen@gmail.com',
-            'password'=>Hash::make('salen'),
-            'type'=> "Admin",
-        ]);
-
-        DB::table('accounts')->insert([
-            'first_name'=>'Encoder',
-            'last_name'=>'Encoder',
-            'username'=>'Encoder',
-            'email'=>'encoder@gmail.com',
-            'password'=>Hash::make('encoder'),
-            'type'=> "Encoder",
         ]);
     }
 }
