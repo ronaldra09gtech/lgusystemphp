@@ -171,31 +171,6 @@ Route::get("/barangay/forgot_password
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //Testing Area
 Route::resource('books', BooksController::class);
 Route::get('/invoice', function () {
